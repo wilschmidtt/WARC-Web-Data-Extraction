@@ -8,7 +8,7 @@ from collections import OrderedDict
 # Connecting to server
 ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-ssh.connect('datasci.library.ucdavis.edu', username='wpschmid', password='WS:2085-t2047')
+ssh.connect('datasci.library.ucdavis.edu', username='your_username', password='your_password')
 
 # storing all warc file names to a list
 apath = '/dsl/WARC/warc'
