@@ -1,4 +1,3 @@
-Still in process of creating repo
 # WARC-Archive-Web-Data-Extraction
 
 UC Davis has 15,000 archived WARC files that contain information about all UC Davis related websites from the past 10 years. The goal of this project was to create a program that would connect to the server containing the WARCs, and then use Selinium and BeautifulSoup to visit all of the target URI's and scrape the html body text from each one. Ultimately, a text-analysis will be run on the scraped data and given to the UC Davis Sociology department to conduct research upon. Project was created for UC Davis Data Science and Informatics lab.
