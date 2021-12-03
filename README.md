@@ -35,6 +35,3 @@ UC Davis has 15,000 archived WARC files that contain information about all UC Da
 * A big draw-back with these two programs is that they both store all of the data on your local machine. Not only will the data take up an enormous amount of space (probably more than your machine can handle), but it will take far longer than is practical to finish running.
 * To get around this problem, I created a program that works in a similar fashion on the UC Davis DataSci server, where the WARC's were stored. This way, I didn't need to re-download any files, and all of the .txt files that contained scrapped data could be stored directly on the server for later use. This program was created using Linux CentOS, Python 2.7, and all the same libraries as above. I could not post this program on GitHub though because you must have root-priveleges to run it.
 * In addition, I posted a couple sample folders to repo that demonstrate what the programs would return if run on your local machine.
-
-## Authors
-* **William Schmidt** - [LikedIn](https://www.linkedin.com/in/william-schmidt-152431168/)
