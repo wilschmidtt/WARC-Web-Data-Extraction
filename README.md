@@ -15,7 +15,7 @@ UC Davis has 15,000 archived WARC files that contain information about all UC Da
 * urllib - used to open URL's
 * bs4 - library for pulling data out of HTML and XML files
 * selenium - allows you to connect with your browser and load dynamic web pages
-
+ 
 ## Running the Program
 * First, open the file titled 'warc_parser.py' in any text editor
 * Next, navigate to line 11 and change 'user_name' to your Kerberos ID, then change 'password' to your Kerberos password. This will allow you to connect to the UC Davis DataSci server through SSH.
